@@ -15,6 +15,6 @@ func main() {
 	newCards := newDeckFromFile("my_cards");
 	newCards.print();
 
-	newCards2 := newDeckFromFile("my");
-	newCards2.print();
+	newCards.shuffle();
+	newCards.print();
 }
